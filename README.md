@@ -8,13 +8,13 @@ Recomendamos fortemente o uso de [react](https://reactjs.org/) para o desenvolvi
 
 ## Figma
 
-Use as telas do [figma](https://www.figma.com/) para se guiar no desenvolvimento. O código de css não será tão importante quando o javascript, mas esperamos que o layout fique de acordo com as telas.
+Use as telas do [figma](https://www.figma.com/file/II8UDFm2uJFZaD0FOPcinP/Teste-Fornt-End) para se guiar no desenvolvimento. O código de css não será tão importante quando o javascript, mas esperamos que o layout fique de acordo com as telas.
 
 ## API
 
 Para as funcionalidades da aplicação, faça integração com a [api](https://github.com/naveteam/back-end-test). Recomendamos o uso da [fetch api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) ou do [axios](https://github.com/axios/axios) para realizar as chamadas http.
 
-A documentação da API oficial do teste pode ser utilizada com o [postman](https://www.postman.com/) importando [esse](https://www.getpostman.com/collections/3dd1a8a75c9b54e30529) link.
+A documentação da API oficial do teste pode ser utilizada com o [postman](https://www.postman.com/) importando [esse](https://www.getpostman.com/collections/e6afe4028c2a1e56e577) link. Todos os parâmetros para cada rota estão documentados nessa URL, então a utilize como base para montar a web app.
 
 ## Funcionalidades
 
