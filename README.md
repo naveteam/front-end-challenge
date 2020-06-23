@@ -16,13 +16,15 @@ Para as funcionalidades da aplicação, faça integração com a [api](https://g
 
 A documentação da API oficial do teste pode ser utilizada com o [postman](https://www.postman.com/) importando [esse](https://www.getpostman.com/collections/e6afe4028c2a1e56e577) link. Todos os parâmetros para cada rota estão documentados nessa URL, então a utilize como base para montar a web app.
 
+Após importar o link no postman, você deve criar um cadastro utilizando a request de `user/signup`. 
+
 ## Funcionalidades
 
 ### Login
 
 A web app deverá possuir um fluxo de autenticação, onde o usuário só pode acessar as telas internas do sistema (listagem, formulários) passando pela tela de login. Enviaremos por email um usuário para usar durante o teste.
 
-Para realizar o login, você deve usar a request de `user/login` disponível no postman.
+Para realizar o login, você deve usar a request de `user/login` disponível no postman. Essa request retornará um token do tipo `Bearer` que deverá ser utilizado no header das próximas requisições.
 
 ### Listagem
 
