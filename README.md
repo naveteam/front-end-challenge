@@ -22,7 +22,7 @@ Após importar o link no postman, você deve criar um cadastro utilizando a requ
 
 ### Login
 
-A web app deverá possuir um fluxo de autenticação, onde o usuário só pode acessar as telas internas do sistema (listagem, formulários) passando pela tela de login. Enviaremos por email um usuário para usar durante o teste.
+A web app deverá possuir um fluxo de autenticação, onde o usuário só pode acessar as telas internas do sistema (listagem, formulários) passando pela tela de login com as credenciais criadas previamente via Postman.
 
 Para realizar o login, você deve usar a request de `user/login` disponível no postman. Essa request retornará um token do tipo `Bearer` que deverá ser utilizado no header das próximas requisições.
 
