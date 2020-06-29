@@ -4,7 +4,7 @@
 
 O sistema consiste em uma web app para visualização e criação dos navers, possuindo informações como: nomes, idades, cargos, tempo de empresa e projetos que participou.
 
-Recomendamos fortemente o uso de [react](https://reactjs.org/) para o desenvolvimento, pois é a biblioteca que mais usamos nos projetos da empresa.
+Será um diferencial realizar o desenvolvimento usando [React](https://pt-br.reactjs.org/), pois é a biblioteca que mais usamos na empresa. Também serão aceitos testes desenvolvidos com [Vue.js](https://vuejs.org/), [Angular](https://angular.io/) ou sem uso de um framework específico, mas com as funcionalidades desenvolvidas utilizando JavaScript.
 
 ## Figma
 
