@@ -12,7 +12,7 @@ Use as telas do [figma](https://www.figma.com/file/II8UDFm2uJFZaD0FOPcinP/Teste-
 
 ## API
 
-Para as funcionalidades da aplicação, faça integração com a [api](https://navedex-api.herokuapp.com/). Recomendamos o uso da [fetch api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) ou do [axios](https://github.com/axios/axios) para realizar as chamadas http.
+Para as funcionalidades da aplicação, faça integração com a [api](https://navedex-api.herokuapp.com/v1/). Recomendamos o uso da [fetch api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) ou do [axios](https://github.com/axios/axios) para realizar as chamadas http.
 
 A documentação da API oficial do teste pode ser utilizada com o [postman](https://www.postman.com/) importando [esse](https://www.getpostman.com/collections/e6afe4028c2a1e56e577) link. Todos os parâmetros para cada rota estão documentados nessa URL, então a utilize como base para montar a web app.
 
