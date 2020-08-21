@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../components/Header/index";
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -8,7 +9,14 @@ class HomePage extends React.Component {
   }
 
   render() {
-    return <>Home</>;
+    return (
+      <>
+        <Header></Header>
+        <div>
+          <h1>Navers</h1>
+        </div>
+      </>
+    );
   }
 }
 

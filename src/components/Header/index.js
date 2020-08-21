@@ -1,11 +1,14 @@
 import React from "react";
 import Logo from "../../img/logo.png";
+import { Wrapper } from "../../styles/styles.js";
 
 function Header(props) {
   return (
-    <div>
-      <img src={Logo} alt="website logo" />
-    </div>
+    <>
+      <Wrapper>
+        <img src={Logo} alt="website logo" />
+      </Wrapper>
+    </>
   );
 }
 
