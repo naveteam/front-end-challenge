@@ -1,53 +1,68 @@
-# Desafio de front-end
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Navedex
+## Available Scripts
 
-O sistema consiste em uma web app para visualização e criação dos navers, possuindo informações como: nomes, idades, cargos, tempo de empresa e projetos que participou.
+In the project directory, you can run:
 
-Será um diferencial realizar o desenvolvimento usando [React](https://pt-br.reactjs.org/), pois é a biblioteca que mais usamos na empresa. Também serão aceitos testes desenvolvidos com [Vue.js](https://vuejs.org/), [Angular](https://angular.io/) ou sem uso de um framework específico, mas com as funcionalidades desenvolvidas utilizando JavaScript.
+### `npm start`
 
-## Figma
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Use as telas do [figma](https://www.figma.com/file/II8UDFm2uJFZaD0FOPcinP/Teste-Fornt-End) para se guiar no desenvolvimento. O código de css não será tão importante quando o javascript, mas esperamos que o layout fique de acordo com as telas.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## API
+### `npm test`
 
-Para as funcionalidades da aplicação, faça integração com a [api](https://navedex-api.herokuapp.com/v1/). Recomendamos o uso da [fetch api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) ou do [axios](https://github.com/axios/axios) para realizar as chamadas http.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-A documentação da API oficial do teste pode ser utilizada com o [postman](https://www.postman.com/) importando [esse](https://www.getpostman.com/collections/e6afe4028c2a1e56e577) link. Todos os parâmetros para cada rota estão documentados nessa URL, então a utilize como base para montar a web app.
+### `npm run build`
 
-Após importar o link no postman, você deve criar um cadastro utilizando a request de `users/signup`. 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Funcionalidades
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-### Login
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-A web app deverá possuir um fluxo de autenticação, onde o usuário só pode acessar as telas internas do sistema (listagem, formulários) passando pela tela de login com as credenciais criadas previamente via Postman.
+### `npm run eject`
 
-Para realizar o login, você deve usar a request de `users/login` disponível no postman. Essa request retornará um token do tipo `Bearer` que deverá ser utilizado no header das próximas requisições.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Listagem
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-A página inicial da aplicação tera uma lista dos `navers`.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Para listar os `navers`, você deve usar a request de `navers/index` disponível no postman.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Visualização
+## Learn More
 
-Ao clicar em algum `naver` da listagem, o usuário terá uma visualização completa das informações do mesmo.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Para apresentar um único `naver`, você deve usar a request de `navers/show` disponível no postman.
-Para excluir um `naver`, você deve usar a request de `navers/delete` disponível no postman.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Criação/edição
+### Code Splitting
 
-O usuário precisa ter a possibilidade de criar um novo `naver` ou editar um já existente.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-Para criar um `naver`, você deve usar a request de `navers/create` disponível no postman.
-Para editar um `naver`, você deve usar a request de `navers/update` disponível no postman.
+### Analyzing the Bundle Size
 
-## Observações
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-Ao finalizar o teste, envie o link do seu repositório por e-mail para [vagas@nave.rs](mailto:vagas@nave.rs).
+### Making a Progressive Web App
 
-Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção `Dificuldades` do seu README e nos envie até onde chegou. 😄
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
