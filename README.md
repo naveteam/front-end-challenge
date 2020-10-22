@@ -50,6 +50,6 @@ Para editar um `naver`, você deve usar a request de `navers/update` disponível
 
 Ao finalizar o teste, envie o link do seu repositório por e-mail para [vagas@nave.rs](mailto:vagas@nave.rs).
 
-Um diferencial positivo é fazer com que o teste seja responsivo
+Um diferencial positivo é fazer com que o teste seja responsivo.
 
 Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção `Dificuldades` do seu README e nos envie até onde chegou. 😄
