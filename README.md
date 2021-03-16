@@ -48,7 +48,7 @@ Para editar um `naver`, você deve usar a request de `navers/update` disponível
 
 ## Observações
 
-Ao finalizar o teste, envie o link do seu repositório por e-mail para [vagas@nave.rs](mailto:vagas@nave.rs).
+Ao finalizar o teste, envie o link do seu repositório por mensagem lá na gupy.
 
 Um diferencial positivo é fazer com que o teste seja responsivo.
 
